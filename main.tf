@@ -28,3 +28,9 @@ resource "azurerm_resource_group" "rahul " {
     name = "ashutosh"
     location = "west us"
   }
+
+
+  resource "azurerm_resource_group" "yogi" {
+    name = "yogi"
+    location = "west us"
+  }
