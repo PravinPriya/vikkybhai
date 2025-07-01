@@ -34,3 +34,8 @@ resource "azurerm_resource_group" "rahul " {
     name = "yogi"
     location = "west us"
   }
+
+resource "azurerm_resource_group" "aj" {
+    name = "arjun"
+    location = "west us"
+  }
