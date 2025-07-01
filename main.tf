@@ -16,3 +16,10 @@ resource "azurerm_virtual_network" "lokesh" {
       
     }
 }
+
+
+
+resource "azurerm_resource_group" "rahul " {
+    name = "vikkay"
+    location = "west us"
+  }
